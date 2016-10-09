@@ -1,0 +1,369 @@
+/* Include Default Variables & Mixins */
+/*@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,300,600,800);*/
+/*@import url(http://fonts.googleapis.com/css?family=Gentium+Basic:400,700);*/
+@font-face {
+  font-family: 'AvalonRegular';
+  src: url("../fonts/Avalon-Book-webfont.eot");
+  src: url("../fonts/Avalon-Book-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Avalon-Book-webfont.woff") format("woff"), url("../fonts/Avalon-Book-webfont.ttf") format("truetype"), url("../fonts/Avalon-Book-webfont.svg#AvalonRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'WebSymbolsRegular';
+  src: url("../fonts/websymbols-regular-webfont.eot");
+  src: url("../fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/websymbols-regular-webfont.woff") format("woff"), url("../fonts/websymbols-regular-webfont.ttf") format("truetype"), url("../fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.glyph {
+  font-family: 'WebSymbolsRegular'; }
+
+/* light blue, links */
+/* white */
+/* black */
+/* dark green, background */
+/* light green, background */
+/* End Variables & Mixins */
+/**************************************************
+* --
+* 2. Section header
+* --
+**************************************************/
+/**********************************************
+* 2.1. Zone user
+**********************************************/
+.zone-user-wrapper {
+  position: fixed;
+  z-index: 200; }
+
+/*******************************************
+* 2.1.2. Region user second
+*******************************************/
+#region-user-second {
+  background-color: transparent; }
+
+.block-menu-menu-user-menu {
+  margin: 0;
+  width: 220px;
+  float: right; }
+
+/**********************************************
+* 2.2. Zone branding
+**********************************************/
+.zone-branding .region-branding {
+  clear: both; }
+  .zone-branding .region-branding .logo-img {
+    float: left;
+    /* LTR */
+    text-align: left;
+    /* LTR */ }
+
+.menu-toggle {
+  display: none; }
+
+.navigation {
+  background: transparent;
+  display: block !important;
+  margin: 26px 0;
+  padding-bottom: 0;
+  /* Main menu */
+  /* Secondary menu */ }
+  .navigation h2 {
+    display: none; }
+  .navigation .primary-menu ul,
+  .navigation .second-menu ul {
+    display: block;
+    float: left;
+    /* LTR */
+    margin: 0;
+    width: 100%; }
+    .navigation .primary-menu ul li,
+    .navigation .second-menu ul li {
+      float: inherit;
+      font-size: 0.8em;
+      width: auto; }
+      .navigation .primary-menu ul li a,
+      .navigation .second-menu ul li a {
+        display: inline;
+        border-left-width: 0;
+        border-right-width: 0; }
+        .navigation .primary-menu ul li a.active, .navigation .primary-menu ul li a:hover,
+        .navigation .second-menu ul li a.active,
+        .navigation .second-menu ul li a:hover {
+          border-left-width: 0;
+          border-right-width: 0; }
+      .navigation .primary-menu ul li.first a,
+      .navigation .second-menu ul li.first a {
+        border-left: 1px solid #CCC;
+        /* LTR */ }
+      .navigation .primary-menu ul li.last a,
+      .navigation .second-menu ul li.last a {
+        border-right: 1px solid #CCC;
+        /* LTR */ }
+  .navigation .primary-menu {
+    float: left;
+    /* LTR */
+    margin-right: 12px;
+    /* LTR */
+    margin-left: 0;
+    /* LTR */ }
+  .navigation .second-menu {
+    clear: inherit;
+    float: right;
+    /* LTR */
+    margin-right: 0; }
+
+.zone-menu .block-menu h2.block-title {
+  margin-bottom: 1em; }
+.zone-menu .block-menu ul.menu li {
+  font-size: 0.8em;
+  width: auto; }
+  .zone-menu .block-menu ul.menu li a {
+    display: inline;
+    border-left-width: 0;
+    border-right-width: 0; }
+    .zone-menu .block-menu ul.menu li a.active, .zone-menu .block-menu ul.menu li a:hover {
+      border-left-width: 0;
+      border-right-width: 0; }
+  .zone-menu .block-menu ul.menu li.first a {
+    border-left: 1px solid #CCC; }
+  .zone-menu .block-menu ul.menu li.last a {
+    border-right: 1px solid #CCC; }
+
+.zone-postscript .grid-8 {
+  margin: 0 10px;
+  width: inherit; }
+
+#zone-postscript {
+  /* Adverts blocks */ }
+  #zone-postscript .view-ad-push .views-row,
+  #zone-postscript .block-blog-block .block-inner {
+    position: relative; }
+    #zone-postscript .view-ad-push .views-row img,
+    #zone-postscript .block-blog-block .block-inner img {
+      height: auto;
+      max-width: 100%; }
+  #zone-postscript .view-ad-push .views-row .views-field-field-tagline,
+  #zone-postscript .block-blog-block .block-inner .content .views-field-title {
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    width: 86%; }
+    #zone-postscript .view-ad-push .views-row .views-field-field-tagline a,
+    #zone-postscript .block-blog-block .block-inner .content .views-field-title a {
+      border: 0; }
+  #zone-postscript .block-blog-block .block-inner .block-title {
+    display: block; }
+  #zone-postscript .view-ad-push .views-row .views-field-field-tagline .field-content a,
+  #zone-postscript .block-blog-block .views-field-title .field-content a {
+    min-height: 60px;
+    padding: 15px 10px; }
+
+/**************************************************
+* --
+* 4. Section footer
+* --
+**************************************************/
+/**********************************************
+* 4.1. Zone footer
+**********************************************/
+/**
+* Menu footer navigation
+*/
+.section-footer ul.menu li.expanded {
+  display: inline;
+  float: left;
+  /* LTR */ }
+
+.page-user,
+.page-checkout {
+  /* Registration form */
+  /* Login form, create an account block */
+  /* User home */ }
+  .page-user #user_register_form,
+  .page-user #user_login_form,
+  .page-user .create-account,
+  .page-user #user_pass_form,
+  .page-checkout #user_register_form,
+  .page-checkout #user_login_form,
+  .page-checkout .create-account,
+  .page-checkout #user_pass_form {
+    clear: none;
+    float: left;
+    width: 45%; }
+  .page-user form#user-register-form .form-item-pass,
+  .page-user form#user-profile-form .form-item-pass,
+  .page-checkout form#user-register-form .form-item-pass,
+  .page-checkout form#user-profile-form .form-item-pass {
+    margin-bottom: auto; }
+    .page-user form#user-register-form .form-item-pass .password-parent,
+    .page-user form#user-profile-form .form-item-pass .password-parent,
+    .page-checkout form#user-register-form .form-item-pass .password-parent,
+    .page-checkout form#user-profile-form .form-item-pass .password-parent {
+      position: relative;
+      width: 36.3em; }
+      .page-user form#user-register-form .form-item-pass .password-parent .password-strength,
+      .page-user form#user-profile-form .form-item-pass .password-parent .password-strength,
+      .page-checkout form#user-register-form .form-item-pass .password-parent .password-strength,
+      .page-checkout form#user-profile-form .form-item-pass .password-parent .password-strength {
+        position: absolute;
+        right: 15px;
+        bottom: -12px;
+        width: 17em; }
+    .page-user form#user-register-form .form-item-pass .confirm-parent,
+    .page-user form#user-profile-form .form-item-pass .confirm-parent,
+    .page-checkout form#user-register-form .form-item-pass .confirm-parent,
+    .page-checkout form#user-profile-form .form-item-pass .confirm-parent {
+      position: relative;
+      width: 36.3em; }
+      .page-user form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-user form#user-profile-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-checkout form#user-register-form .form-item-pass .confirm-parent div.password-confirm,
+      .page-checkout form#user-profile-form .form-item-pass .confirm-parent div.password-confirm {
+        right: 15px;
+        bottom: 8px;
+        width: 17em; }
+    .page-user form#user-register-form .form-item-pass .password-suggestions,
+    .page-user form#user-profile-form .form-item-pass .password-suggestions,
+    .page-checkout form#user-register-form .form-item-pass .password-suggestions,
+    .page-checkout form#user-profile-form .form-item-pass .password-suggestions {
+      width: 38.5em; }
+  .page-user form#user-register-form .form-actions,
+  .page-user form#user-profile-form .form-actions,
+  .page-checkout form#user-register-form .form-actions,
+  .page-checkout form#user-profile-form .form-actions {
+    clear: both;
+    margin-top: 0;
+    margin-bottom: 100px;
+    width: 70%; }
+  .page-user #user_pass_form,
+  .page-checkout #user_pass_form {
+    width: auto; }
+  .page-user form#user-login #user_login_form,
+  .page-checkout form#user-login #user_login_form {
+    border: 0;
+    border-right: 1px solid #444;
+    padding-right: 20px;
+    padding-bottom: 0; }
+  .page-user form#user-login .create-account,
+  .page-checkout form#user-login .create-account {
+    margin: 0;
+    padding: 0 20px 20px 20px; }
+  .page-user .profile ul.user-information li,
+  .page-checkout .profile ul.user-information li {
+    border-bottom: 0;
+    width: 33%; }
+
+/* Address book */
+.page-user-addressbook .view-commerce-addressbook td {
+  display: table-cell; }
+
+/* home page feature rotator */
+#views_slideshow_cycle_teaser_section_projects-projects_block .views-slideshow-cycle-main-frame-row .views-row .views-field-body {
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 860px;
+  margin: 0px;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer; }
+  #views_slideshow_cycle_teaser_section_projects-projects_block .views-slideshow-cycle-main-frame-row .views-row .views-field-body .view-content {
+    padding: 5px;
+    color: #fff;
+    font-weight: 400; }
+
+#views_slideshow_cycle_teaser_section_projects-projects_block .views-slideshow-cycle-main-frame-row .views-row:hover .views-field-body {
+  background-color: rgba(0, 0, 0, 0.85);
+  color: #dd621e;
+  cursor: pointer; }
+
+/*Controls Text Bottom*/
+/*Sets the grand parent container div's position to relative*/
+#views_slideshow_controls_text_projects-projects_block {
+  float: left;
+  width: 880px;
+  /*width of your image slideshows*/
+  height: 18px;
+  /*adjust this*/
+  position: relative;
+  background-color: green;
+  bottom: 10px; }
+
+/*Sets the parent container <<previous control div's position to relative*/
+#views_slideshow_controls_text_projects-projects_block {
+  float: left;
+  width: 880px;
+  /*width of your image slideshows*/
+  height: 18px;
+  /*adjust this*/
+  position: relative; }
+
+/*arrow left/previous control*/
+#views_slideshow_controls_text_projects-projects_block .views-slideshow-controls-text-previous .views_slideshow_controls_text_previous .views-slideshow-controls-text-previous-processed {
+  background: url(../images/arrow_left.png) no-repeat;
+  display: inline-block;
+  /*set display*/
+  position: absolute;
+  /*set position*/
+  left: 450px;
+  /*left position*/
+  width: 17px;
+  /*width of your img to change*/
+  height: 25px;
+  /*height of your img*/
+  font-size: 0px;
+  /*this is better than 1px*/
+  color: #444;
+  /*blue color*/ }
+
+/*Sets the parent container ||pause|| control div's position to relative*/
+#views_slideshow_controls_text_projects-projects_block .views-slideshow-controls-text-pause .views_slideshow_controls_text_pause .views-slideshow-controls-text-pause-processed {
+  float: left;
+  width: 880px;
+  /*width of your image slideshows*/
+  height: 18px;
+  /*adjust this*/
+  position: relative; }
+
+/*pause control*/
+#views_slideshow_controls_text_projects-projects_block .views-slideshow-controls-text-pause .views_slideshow_controls_text_pause .views-slideshow-controls-text-pause-processed {
+  background: url(../images/arrow_pause.png) no-repeat;
+  display: inline-block;
+  /*set display*/
+  position: absolute;
+  /*set position*/
+  left: 475px;
+  /*adjust this*/
+  width: 17px;
+  /*width of your img to change this*/
+  height: 25px;
+  /*height of your img*/
+  font-size: 0px;
+  /*this is better than 1px*/
+  color: #444; }
+
+/*Sets the parent container |next>> control div's position to relative*/
+#views_slideshow_controls_text_projects-projects_block .views-slideshow-controls-text-next .views_slideshow_controls_text_next .views-slideshow-controls-text-next-processed {
+  float: left;
+  width: 880px;
+  /*width of your image slideshows*/
+  height: 18px;
+  /*adjust this*/
+  position: relative; }
+
+/*arrow right/next control*/
+#views_slideshow_controls_text_projects-projects_block .views-slideshow-controls-text-next .views_slideshow_controls_text_next .views-slideshow-controls-text-next-processed {
+  background: url(../images/arrow_right.png) no-repeat;
+  display: inline-block;
+  /*set display*/
+  position: absolute;
+  /*set position*/
+  left: 500px;
+  /*adjust this*/
+  width: 17px;
+  /*width of your img*/
+  height: 25px;
+  /*height of your img*/
+  font-size: 0px;
+  /*this is better than 1px*/
+  color: #444; }

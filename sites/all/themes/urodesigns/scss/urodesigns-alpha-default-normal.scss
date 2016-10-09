@@ -1,0 +1,40 @@
+/* Include Default Variables & Mixins */
+@import "variables.scss";
+@import "mixins.scss";
+/* End Variables & Mixins */
+
+
+.block-menu-user-menu .block-inner {
+  
+  margin-left: 25px;
+  text-transform: uppercase;
+}
+
+
+.navigation {
+  .primary-menu,
+  .second-menu {
+    .links li {
+      font-size: 1em;
+    }
+  }
+}
+
+.zone-content-wrapper {
+  .zone-content {
+    .region-content-inner {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+
+#zone-postscript {
+  .view-ad-push .views-row .views-field-field-tagline .field-content,
+  .block-blog-block .views-field-title .field-content {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+
+

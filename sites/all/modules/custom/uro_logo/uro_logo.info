@@ -1,0 +1,4 @@
+name = uro_logo
+description = Uro Designs logo block
+core = 7.x
+package = Features

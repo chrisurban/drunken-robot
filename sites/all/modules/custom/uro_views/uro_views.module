@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the uro_views feature.
+ */
+
+include_once 'uro_views.features.inc';

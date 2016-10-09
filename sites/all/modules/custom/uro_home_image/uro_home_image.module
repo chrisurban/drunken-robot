@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the uro_home_image feature.
+ */
+
+include_once 'uro_home_image.features.inc';

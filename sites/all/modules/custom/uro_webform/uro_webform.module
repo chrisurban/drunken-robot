@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the uro_webform feature.
+ */
+
+include_once 'uro_webform.features.inc';

@@ -1,0 +1,47 @@
+<?php
+/**
+ * Implements hook_block_info().
+ */
+function uro_logo_block_info() {
+  $blocks['uro_logo'] = array(
+    'info' => t('Uro Designs logo'),
+    'status' => TRUE,
+    'region' => 'branding',
+    'weight' => 0,
+    'visibility' => 0,
+    'pages' => 'admin*
+node/add*
+node/*/edit
+node/*/devel
+',
+  );
+
+  return $blocks;
+}
+  
+/**
+  * Implements hook_block_view().
+  */
+function uro_logo_block_view($delta='') {
+  $block = array();
+
+  switch ($delta) {
+    case 'uro_logo':
+      $block['subject'] = t('Uro Designs Logo');
+      $block['content'] = theblock_contents();
+      break;
+  }
+  
+  return $block;
+}
+
+/**
+ * custom html block
+ * @return string
+ */
+function theblock_contents() {
+  return '
+  <img src="/sites/all/themes/urodesigns/images/urodesigns_logo_150x78.png" alt="Uro Designs" />
+  ';
+}
+?>
